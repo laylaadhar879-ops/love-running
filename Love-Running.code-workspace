@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Love-Running",
+			"path": "."
+		},
+		{
+			"name": "favicon-zip",
+			"path": "../../favicon-zip"
+		},
+		{
+			"name": "assets",
+			"path": "assets"
+		}
+	],
+	"settings": {}
+}
