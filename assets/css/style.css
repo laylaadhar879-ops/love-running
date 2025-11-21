@@ -13,7 +13,7 @@
 /*general body styles*/
 
 body {
-    min-height: 100vh 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*generic project styles*/
@@ -49,6 +49,14 @@ h1{
     list-style-type: none;
     letter-spacing: 4px;
     font-size: 110%;
+}
+
+#menu > li {
+    margin-bottom: 1rem;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*main content*/
