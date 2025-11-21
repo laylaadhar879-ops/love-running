@@ -1,3 +1,7 @@
+/*Google Fonts Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /*Asterisk wildcard selector to override default styles added by the browser*/
 
 * {
@@ -9,15 +13,18 @@
 /*general body styles*/
 
 body {
-    min-height: 100vh display: flex;
+    min-height: 100vh 
+    display: flex;
     flex-direction: column;
-    /* generic project styles*/
+    /*generic project styles*/
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /*header*/
 
 header {
+
     background-color: lightcoral;
 }
 
