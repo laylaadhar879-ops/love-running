@@ -94,19 +94,25 @@ nav {
 /*main content*/
 
 main {
-    background-color: lightblue;
+
     /*Make main element take up any surplus to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
+/*hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
+}
 
 /*footer*/
 
-#social-networks {
+#social-networks{
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
